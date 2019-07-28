@@ -1,0 +1,11 @@
+{
+  "name": "limited-async-req",
+  "version": "1.0.0",
+  "description": "用于处理按并发阈值限流执行的异步函数",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "彭湖湾",
+  "license": "ISC"
+}
