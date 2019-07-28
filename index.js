@@ -16,7 +16,7 @@ function initReqLimit(count = 5) {
                 if (asyncFnArr.length > 0) {
                     recursion(); // 如果还有待调用的异步函数，递归
                 }
-            })
+            }).catch(err => { throw err; })
         }
     }
     return function (asyncFn) {
