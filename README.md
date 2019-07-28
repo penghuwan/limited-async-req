@@ -2,7 +2,9 @@
 用于处理按并发阈值限流执行的异步函数
 
 # Installation
+```
 npm i limited-async-req
+```
 
 # Introduction
 ## initReqLimit方法
