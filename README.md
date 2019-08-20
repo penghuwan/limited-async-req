@@ -2,7 +2,7 @@
 用于处理按并发阈值限流执行的异步函数
 
 # Installation
-```
+```js
 npm i limited-async-req
 ```
 
@@ -15,7 +15,7 @@ npm i limited-async-req
 + reqLimit的返回值是一个Promise，这意味着你可以通过then方法或await去处理该异步任务的返回值
 
 # Example Usage
-```
+```js
 import initReqLimit from 'limited-async-req'
 async function func1() {
   return 1
@@ -34,7 +34,7 @@ reqLimit(func3).then(({ val, curCount }) => console.log("返回值=%s,当前并�
 
 ```
 输出如下：
-```
+```js
 返回值=1,当前并发量=2
 返回值=2,当前并发量=2
 返回值=3,当前并发量=1
