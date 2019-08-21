@@ -1,3 +1,5 @@
+![](https://img.shields.io/badge/syntax-ES6-blue)
+![](https://img.shields.io/badge/style-Promise-orange)
 # limited-async-req
 用于处理按并发阈值限流执行的异步函数
 
